@@ -225,7 +225,8 @@ export async function GET(request: NextRequest) {
         maxDailyLoss: 1000,
         maxDrawdown: 0.25,
         maxPositions: 1,
-        positionSize: 0.3,
+        positionSize: 10, // USDT
+        leverage: 10, // 10x leverage
         stopLossMultiple: 1.5,
         takeProfitLevels: [1.5, 2.5, 4.0],
       },

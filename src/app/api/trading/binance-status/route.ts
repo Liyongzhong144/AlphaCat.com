@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'crypto';
 
-const baseUrl = 'https://testnet.binancefuture.com';
+// Use production Binance Futures API
+const baseUrl = 'https://fapi.binance.com';
 
 export async function POST(request: NextRequest) {
   try {

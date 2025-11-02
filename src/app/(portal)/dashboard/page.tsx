@@ -45,7 +45,8 @@ const defaultConfig: TradingConfig = {
     maxDailyLoss: 500, // 5% of $10,000 initial capital
     maxDrawdown: 0.10, // 10% total drawdown
     maxPositions: 1,
-    positionSize: 0.3,
+    positionSize: 10, // USDT
+    leverage: 10, // 10x leverage
     stopLossMultiple: 1.5,
     takeProfitLevels: [1.5, 2.5, 4.0],
   },

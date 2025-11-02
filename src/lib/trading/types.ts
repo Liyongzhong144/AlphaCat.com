@@ -45,7 +45,8 @@ export interface RiskConfig {
   maxDailyLoss: number; // in USD
   maxDrawdown: number; // percentage (0.25 = 25%)
   maxPositions: number;
-  positionSize: number; // lots
+  positionSize: number; // in USDT
+  leverage: number; // leverage multiplier (1-125)
   stopLossMultiple: number; // ATR multiple
   takeProfitLevels: number[]; // R multiples
 }
