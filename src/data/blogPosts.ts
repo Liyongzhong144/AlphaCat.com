@@ -1399,769 +1399,349 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">关键提示</p>
 <p class="text-lg text-center text-white dark:text-black">外汇交易不是快速致富的捷径，而是需要长期学习和实践的专业技能。保持耐心，控制风险，持续学习，才能在这个市场中生存并盈利。</p>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Forex Trading Beginner Guide: Starting Your Trading Journey from Zero</h1>
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">What is Forex Trading?</h2>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Forex trading, short for foreign exchange trading, involves exchanging one currency for another. Unlike stock markets, the forex market is a global, decentralized marketplace operating 24 hours a day.</p>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Why Choose Forex Trading?</h3>
-
-<strong class="font-bold text-black dark:text-white"> Massive Market Size</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Global daily volume exceeds $6 trillion</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Extremely high liquidity with minimal slippage</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Quick entry and exit at any time</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white"> 24-Hour Trading</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Monday through Friday continuous trading</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Suits traders in different time zones</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Flexible trading schedule</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white"> Bidirectional Trading Opportunities</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Can go long (buy)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Can go short (sell)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Profit opportunities in both rising and falling markets</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white"> Leverage Trading</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Control large positions with small capital</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Amplify profit potential</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>But also amplify risk</span></li>
-</ul>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Forex Market Basic Concepts</h2>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">1. Currency Pairs</h3>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Forex trading always involves pairs of currencies.</p>
-
-<h4 class="text-xl font-bold mb-3 mt-6 text-black dark:text-white">Major Pairs</h4>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">EUR/USD</strong> - Euro/US Dollar (highest volume)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">GBP/USD</strong> - British Pound/US Dollar</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">USD/JPY</strong> - US Dollar/Japanese Yen</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">USD/CHF</strong> - US Dollar/Swiss Franc</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">AUD/USD</strong> - Australian Dollar/US Dollar</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">USD/CAD</strong> - US Dollar/Canadian Dollar</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">NZD/USD</strong> - New Zealand Dollar/US Dollar</span></li>
-</ul>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Features: High liquidity, tight spreads, suitable for beginners</p>
-
-<h4 class="text-xl font-bold mb-3 mt-6 text-black dark:text-white">Cross Pairs</h4>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">EUR/GBP</strong> - Euro/British Pound</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">EUR/JPY</strong> - Euro/Japanese Yen</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">GBP/JPY</strong> - British Pound/Japanese Yen</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">AUD/JPY</strong> - Australian Dollar/Japanese Yen</span></li>
-</ul>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Features: Don't involve USD, higher volatility</p>
-
-<h4 class="text-xl font-bold mb-3 mt-6 text-black dark:text-white">Exotic Pairs</h4>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">USD/TRY</strong> - US Dollar/Turkish Lira</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">USD/ZAR</strong> - US Dollar/South African Rand</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">USD/MXN</strong> - US Dollar/Mexican Peso</span></li>
-</ul>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Features: Low liquidity, wide spreads, high risk</p>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">2. Pip</h3>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">A pip is the smallest price movement unit in forex.</p>
-
-<strong class="font-bold text-black dark:text-white">Examples:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>EUR/USD moves from 1.1000 to 1.1001 = 1 pip gain</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>GBP/USD moves from 1.3000 to 1.2995 = 5 pip drop</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Yen pairs are special:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>USD/JPY moves from 110.00 to 110.01 = 1 pip</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">3. Lot</h3>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">A lot is the standard unit of forex trading.</p>
-
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Standard Lot</strong>: 100,000 units of base currency</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Mini Lot</strong>: 10,000 units of base currency</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Micro Lot</strong>: 1,000 units of base currency</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Nano Lot</strong>: 100 units of base currency</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Example Calculation:</strong>
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Trading 1 standard lot EUR/USD:</p>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Base currency: EUR</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trade size: 100,000 euros</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>If EUR/USD price is 1.1000</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Controls $110,000 position</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">4. Pip Value</h3>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Each pip's value depends on lot size and currency pair.</p>
-
-<strong class="font-bold text-black dark:text-white">Standard Lot Pip Values:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>EUR/USD: $10/pip</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>GBP/USD: $10/pip</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>USD/JPY: ~$9.09/pip</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Mini Lot Pip Values:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>EUR/USD: $1/pip</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>GBP/USD: $1/pip</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">5. Leverage</h3>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Leverage allows controlling large positions with small capital.</p>
-
-<strong class="font-bold text-black dark:text-white">Common Leverage Ratios:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>1:50 - Conservative</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>1:100 - Standard</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>1:200 - Aggressive</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>1:500 - High risk</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Example:</strong>
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">$1,000 account with 1:100 leverage:</p>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Can control: $100,000 position</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trading 1 standard lot EUR/USD requires only $1,000 margin</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Warning:</strong> Leverage is a double-edged sword - amplifies both profits and losses!
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">6. Margin</h3>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Margin is the minimum capital required to open a position.</p>
-
-<strong class="font-bold text-black dark:text-white">Formula:</strong>
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Margin = (Contract Size  Lots) ÷ Leverage</p>
-
-<strong class="font-bold text-black dark:text-white">Example:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trading 1 standard lot EUR/USD</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Contract size: 100,000</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Leverage: 1:100</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Margin = 100,000 ÷ 100 = $1,000</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">7. Spread</h3>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Spread is the difference between bid and ask prices - broker's main revenue source.</p>
-
-<strong class="font-bold text-black dark:text-white">Example:</strong>
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">EUR/USD quote:</p>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Ask price: 1.1002</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Bid price: 1.1000</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Spread: 2 pips</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Spread Types:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Fixed Spread</strong> - Doesn't change with market fluctuations</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Floating Spread</strong> - Changes based on market liquidity</span></li>
-</ul>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Forex Trading Sessions</h2>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Three Major Trading Sessions</h3>
-
-<h4 class="text-xl font-bold mb-3 mt-6 text-black dark:text-white">1. Asian Session (Tokyo)</h4>
-<strong class="font-bold text-black dark:text-white">Time:</strong> 8:00-16:00 Beijing Time
-
-<strong class="font-bold text-black dark:text-white">Characteristics:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Relatively low volatility</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Suitable for range trading</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>JPY, AUD, NZD more active</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Best to Trade:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>USD/JPY</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>AUD/USD</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>NZD/USD</span></li>
-</ul>
-
-<h4 class="text-xl font-bold mb-3 mt-6 text-black dark:text-white">2. European Session (London)</h4>
-<strong class="font-bold text-black dark:text-white">Time:</strong> 15:00-24:00 Beijing Time
-
-<strong class="font-bold text-black dark:text-white">Characteristics:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Highest volume period</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Increased volatility</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>EUR, GBP more active</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Best to Trade:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>EUR/USD</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>GBP/USD</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>EUR/GBP</span></li>
-</ul>
-
-<h4 class="text-xl font-bold mb-3 mt-6 text-black dark:text-white">3. US Session (New York)</h4>
-<strong class="font-bold text-black dark:text-white">Time:</strong> 20:00-04:00 next day Beijing Time
-
-<strong class="font-bold text-black dark:text-white">Characteristics:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Overlaps with European session (20:00-24:00)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Optimal trading period</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Major economic data releases</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Best to Trade:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>All major pairs</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Major news events</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Best Trading Time</h3>
-
-<strong class="font-bold text-black dark:text-white">Golden Hour:</strong> 20:00-24:00 Beijing Time
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>European and US markets overlap</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Highest liquidity</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Greatest volatility</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Most opportunities</span></li>
-</ul>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">How to Start Forex Trading</h2>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Step 1: Learn Fundamentals (3-6 Months)</h3>
-
-<strong class="font-bold text-black dark:text-white">Must-Learn Content:</strong>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Basic Theory</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Concepts: pairs, pips, lots, leverage</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trading platform operations</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Order types (market, limit, stop orders)</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Technical Analysis</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Candlestick chart basics</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Support/resistance levels</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trendline drawing</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Common technical indicators</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Fundamental Analysis</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Economic indicator understanding</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Central bank policy impacts</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>News event trading</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Risk Management</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>2% risk rule</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Stop-loss setting</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Position sizing</span></li>
-</ul>
-</ol>
-
-<strong class="font-bold text-black dark:text-white">Learning Resources:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trading books (Japanese Candlestick Charting, Turtle Trading Rules)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Online courses (FX Killer training)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trading communities (forums, Discord, WeChat groups)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Demo trading platforms</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Step 2: Choose the Right Broker</h3>
-
-<strong class="font-bold text-black dark:text-white">Selection Criteria:</strong>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Regulation</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>FCA (UK)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>ASIC (Australia)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>CySEC (Cyprus)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>NFA (USA)</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Trading Costs</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Spread size</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Commission fees</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Overnight interest</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Trading Platform</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>MT4/MT5</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>cTrader</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Proprietary platforms</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Customer Service</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Language support</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Response speed</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Deposit/withdrawal convenience</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Account Types</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Standard accounts</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>ECN accounts</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Mini accounts</span></li>
-</ul>
-</ol>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Step 3: Open Demo Account (Minimum 6 Months)</h3>
-
-<strong class="font-bold text-black dark:text-white">Importance of Demo Trading:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Familiarize with platform operations</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Test trading strategies</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Train psychological resilience</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Accumulate trading experience</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Zero-risk learning</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Demo Trading Goals:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>6-month profit ≥15%</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Maximum drawdown ≤20%</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Risk-reward ratio ≥1.5:1</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Form your own trading system</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Ability to strictly execute plans</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Important Notes:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Treat demo as real account</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Use realistic position sizes</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strictly execute stop-losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Keep trading journal</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Regular review and summary</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Step 4: Create Trading Plan</h3>
-
-<strong class="font-bold text-black dark:text-white">Trading Plan Includes:</strong>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Trading Goals</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Monthly return target: 5-10%</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Annual return target: 50-100%</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Maximum drawdown limit: 20%</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Trading Strategies</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trend following</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Range trading</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Breakout trading</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>News trading</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Risk Management</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Single trade risk: ≤2%</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Daily risk: ≤6%</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Risk-reward: ≥1:2</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Maximum positions: 3-5</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Trading Rules</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Entry conditions</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Exit conditions</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Adding rules</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Scaling rules</span></li>
-</ul>
-</ol>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Trading Time</strong></span></li>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Only trade during active sessions</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Avoid fatigue trading</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Cautious around major data releases</span></li>
-</ul>
-</ol>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Step 5: Small Capital Live Trading</h3>
-
-<strong class="font-bold text-black dark:text-white">Starting Capital Recommendations:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Minimum: $500-$1,000</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Recommended: $2,000-$5,000</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Ideal: $10,000+</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Initial Trading Advice:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Use mini or micro lots</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strictly control risk (≤1%)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trade only major pairs</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Avoid heavy positions</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Focus on executing plan</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Capital Growth Path:</strong>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Stage 1</strong>: $1,000-$5,000 (Learning stage)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Stage 2</strong>: $5,000-$20,000 (Growth stage)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Stage 3</strong>: $20,000-$100,000 (Maturity stage)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Stage 4</strong>: $100,000+ (Professional stage)</span></li>
-</ol>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Common Beginner Mistakes & How to Avoid Them</h2>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">1. Overtrading</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifestations:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trading dozens of times daily</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Entering every perceived opportunity</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Constantly monitoring and operating</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Harms:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>High trading costs</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Enormous psychological pressure</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Emotional decision-making</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Rapid account depletion</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Avoidance:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Set daily trade limit (3-5 maximum)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trade only best signals</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Wait for perfect setups</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Force yourself to take breaks</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">2. No Stop-Loss</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifestations:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Believing stop-losses get"hunted"</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Unwilling to cut losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Hoping price will recover</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Harms:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Small losses become large losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>One blowup destroys all progress</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Extreme psychological pressure</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Avoidance:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Every trade must have stop-loss</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>No regrets after stop-out</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Accept losses as costs</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Capital protection first</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">3. Chasing Trends</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifestations:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Buying after big green candle</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Selling after big red candle</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>FOMO (Fear of Missing Out)</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Harms:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Often buying tops, selling bottoms</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Frequent stop-loss triggers</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Accumulated losses</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Avoidance:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Wait for pullbacks before entry</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Don't chase extended moves</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Set clear entry conditions</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Missed is missed</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">4. Heavy Position Trading</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifestations:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Using 50%+ capital per trade</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Seeking quick wealth</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Not calculating risk</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Harms:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Few losses cause blowup</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Extreme psychological pressure</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Cannot handle normal fluctuations</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Avoidance:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strictly follow 2% risk rule</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Slow is smooth, smooth is fast</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Pursue stable compound growth</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Calculate position size properly</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">5. Frequently Changing Strategies</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifestations:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Switching after strategy losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Constantly seeking"holy grail"</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Copying others' profitable methods</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Harms:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Never master one strategy</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Repeating beginner mistakes</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Wasting time and money</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Avoidance:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Stick with one strategy min 6 months</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Keep detailed trade records</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Analyze strategy effectiveness</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Make incremental improvements</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">6. Emotional Trading</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifestations:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Desperate to recover after losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Overconfident after wins</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Not following plan</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Harms:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Revenge trading causes big losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Profit give-back or losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Destroying trading discipline</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Avoidance:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Stop trading after consecutive losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Take breaks after big wins</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strictly execute trading plan</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Maintain emotional stability</span></li>
-</ul>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Traits of Successful Traders</h2>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">1. Patience</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifested in:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Waiting for optimal entry timing</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Not chasing every opportunity</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Letting profits fully develop</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Accepting market rhythm</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">How to Cultivate:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Set strict entry conditions</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Record missed opportunities</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Analyze optimal entry points</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Practice delayed gratification</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">2. Discipline</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifested in:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strictly executing trading plan</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Not randomly changing strategies</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Adhering to risk management rules</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Regular review and summary</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">How to Cultivate:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Write down trading rules</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Pre-trade checklist every time</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Record discipline violations</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Establish reward/punishment system</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">3. Risk Awareness</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifested in:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Thinking risk before reward</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Capital protection as top priority</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Knowing maximum loss each trade</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Not taking excessive risk</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">How to Cultivate:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Calculate risk before each trade</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Set maximum loss limits</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Study risk management knowledge</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Analyze failure cases</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">4. Continuous Learning</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifested in:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Constantly learning new knowledge</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Optimizing trading strategies</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Following market changes</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Learning from masters</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">How to Cultivate:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Weekly reading of trading books/articles</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Attending courses and communities</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Regular trade reviews</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Studying successful trader cases</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">5. Emotional Management</h3>
-
-<strong class="font-bold text-black dark:text-white">Manifested in:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Not panicking during losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Not greedy during profits</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Maintaining equanimity</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Rational decision-making</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">How to Cultivate:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Practice meditation and relaxation</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Record emotional changes</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Identify emotional triggers</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Build emotional response mechanisms</span></li>
-</ul>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Recommended Learning Resources</h2>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Classic Books</h3>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Japanese Candlestick Charting Techniques</strong> - Steve Nison</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">The Complete Turtle Trader</strong> - Curtis Faith</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Trading in the Zone</strong> - Mark Douglas</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Reminiscences of a Stock Operator</strong> - Edwin Lefèvre</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Trading for a Living</strong> - Alexander Elder</span></li>
-</ol>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Online Courses</h3>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">FX Killer Systematic Training</strong></span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Babypips Forex School</strong></span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Udemy Forex Courses</strong></span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">YouTube Trading Channels</strong></span></li>
-</ol>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Trading Tools</h3>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">TradingView</strong> - Chart analysis</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Forex Factory</strong> - Economic calendar</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Investing.com</strong> - Market news</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">MyFxBook</strong> - Trading statistics</span></li>
-</ol>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Trading Communities</h3>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">FX Killer Discord Community</strong></span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Forex Forums (ForexFactory, BabyPips)</strong></span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">WeChat Trading Groups</strong></span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Reddit r/Forex</strong></span></li>
-</ol>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Conclusion</h2>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Forex trading is a marathon, not a sprint.</p>
-
-<strong class="font-bold text-black dark:text-white">Keys to Success:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Systematic learning</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Sufficient practice</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strict discipline</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Good mindset</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Continuous improvement</span></li>
-</ul>
-
-<strong class="font-bold text-black dark:text-white">Remember:</strong>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Don't rush for quick success</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Capital protection first</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Learning never ends</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Success takes time</span></li>
-</ul>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Ready? Let's begin this exciting trading journey!</p>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">*May you find your path to profitability in the forex market!*</p>`
+ en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Forex Market Fundamentals</h1>
+
+<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">The forex market (Forex/FX) is the world's largest and most liquid financial market. Understanding forex market fundamentals is the first step to becoming a professional trader.</p>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Market Overview</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">24</span>
+</div>
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Trading Hours</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">5 days a week, 24 hours non-stop</p>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">7</span>
+</div>
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Daily Trading Volume</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Over $7 trillion</p>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">4</span>
+</div>
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Major Currency Pairs</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">EUR/USD, GBP/USD, USD/JPY, USD/CHF</p>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">3</span>
+</div>
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Major Trading Sessions</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Asia, Europe, Americas</p>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">What is Forex Trading</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">Forex trading (Foreign Exchange Trading) refers to the act of simultaneously buying one currency and selling another. Currencies are always traded in pairs, for example EUR/USD represents Euro against US Dollar.</p>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">1</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Base Currency</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">The first currency in a currency pair, serving as the reference for buying or selling. For example, in EUR/USD, EUR is the base currency.</p>
+<p class="text-sm text-gray-500 dark:text-gray-500 mt-3">Example: EUR/USD = 1.1000<br/>Means 1 Euro = 1.1 US Dollars</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">2</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Quote Currency</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">The second currency in a currency pair, used for pricing. For example, in EUR/USD, USD is the quote currency.</p>
+<p class="text-sm text-gray-500 dark:text-gray-500 mt-3">The quote currency is the amount you need to pay</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">3</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Pip (Point in Percentage)</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">The smallest unit of price movement in forex, usually the fourth decimal place.</p>
+<p class="text-sm text-gray-500 dark:text-gray-500 mt-3">EUR/USD from 1.1000 to 1.1001<br/>= Up 1 pip</p>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Currency Pair Classifications</h2>
+
+<div class="overflow-x-auto mb-8">
+<table class="w-full border-2 border-black dark:border-white">
+<thead>
+<tr>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Category</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Characteristics</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Examples</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Spread</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Suitable For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Major Pairs</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Highest liquidity, tightest spreads</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">EUR/USD, GBP/USD, USD/JPY</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">0.5-2 pips</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Beginner traders</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Minor Pairs</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Don't include USD, good liquidity</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">EUR/GBP, EUR/JPY, GBP/JPY</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">2-5 pips</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Experienced traders</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Exotic Pairs</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Include emerging market currencies, high volatility</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">USD/TRY, USD/ZAR, EUR/TRY</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">10-50 pips</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">High-risk appetite traders</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Global Trading Sessions</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">Since the forex market is global, trading sessions from different regions overlap, and these overlapping periods are usually the most active trading times.</p>
+
+<div class="overflow-x-auto mb-8">
+<table class="w-full border-2 border-black dark:border-white">
+<thead>
+<tr>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Trading Session</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Opening Time (Beijing)</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Volatility</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Major Currency Pairs</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Characteristics</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Sydney Session</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">06:00-15:00</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Lower</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">AUD/USD, NZD/USD</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Market warm-up, lower volatility</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Tokyo Session</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">08:00-16:00</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Medium</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">USD/JPY, EUR/JPY</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Asian currencies active</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">London Session</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">15:00-00:00</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">High</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">EUR/USD, GBP/USD</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Highest volume, strongest liquidity</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">New York Session</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">20:00-05:00</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">High</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">All USD-related pairs</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Dense US data releases, high volatility</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">Golden Trading Hours</p>
+<p class="text-lg text-center text-white dark:text-black mb-4">London and New York overlap: Beijing Time 20:00-00:00</p>
+<p class="text-center text-white dark:text-black">These 4 hours have the highest daily volume and volatility, representing the best trading opportunities</p>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Forex Trading Advantages</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">✓ Main Advantages</p>
+<ul class="space-y-3">
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">High Liquidity:</strong> Daily volume exceeds $7 trillion, allowing entry and exit anytime</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">24-Hour Trading:</strong> Continuous trading Monday through Friday, 24 hours</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">Low Spreads:</strong> Major pairs typically have spreads of only 0.5-2 pips</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">Bidirectional Trading:</strong> Can go long or short, profit opportunities in both directions</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">Leverage Trading:</strong> Control larger positions with smaller capital</span>
+</li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">⚠ Important Notes</p>
+<ul class="space-y-3">
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">High Risk:</strong> Leverage is a double-edged sword, losses are also magnified</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">Psychological Pressure:</strong> Requires strong mental fortitude and discipline</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">Learning Curve:</strong> Requires significant time for learning and practice</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">Market Volatility:</strong> Breaking news can cause severe price fluctuations</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">Time Investment:</strong> Requires continuous market monitoring and learning</span>
+</li>
+</ul>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Common Beginner Mistakes</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">❌</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Overtrading</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Frequent opening and closing of positions without waiting for proper trading opportunities.</p>
+<p class="text-sm text-black dark:text-white font-bold mt-3">Correct Approach:</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">Patiently wait for entry points that meet trading rules, quality over quantity.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">❌</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">No Stop-Loss</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Hoping for luck, believing price will return.</p>
+<p class="text-sm text-black dark:text-white font-bold mt-3">Correct Approach:</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">Set hard stop-loss for every trade and never move stop-loss levels.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">❌</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Excessive Leverage</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Using excessive leverage, one loss can blow the account.</p>
+<p class="text-sm text-black dark:text-white font-bold mt-3">Correct Approach:</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">Control position size, single trade risk should not exceed 2% of account.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">❌</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Emotional Trading</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Greed after profits, fear after losses, leading to poor judgment.</p>
+<p class="text-sm text-black dark:text-white font-bold mt-3">Correct Approach:</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">Strictly follow trading plan, don't be swayed by emotions.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">❌</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Lack of Learning</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Unwilling to learn, trading by feeling.</p>
+<p class="text-sm text-black dark:text-white font-bold mt-3">Correct Approach:</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">Continuously learn technical analysis, fundamental analysis, and trading psychology.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">❌</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Chasing Trends</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Chasing buy when price rises, chasing sell when price falls.</p>
+<p class="text-sm text-black dark:text-white font-bold mt-3">Correct Approach:</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">Wait for pullback or breakout confirmation before entering.</p>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Learning Path for Beginners</h2>
+
+<div class="space-y-4 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="flex gap-4 items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">1</span>
+</div>
+<div class="flex-grow">
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Foundation Learning (1-2 Weeks)</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Learn forex market basics, currency pairs, pips, leverage, margin, and other fundamental knowledge.</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">Recommended resources: Trading platform tutorials, forex basics books, online courses</p>
+</div>
+</div>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="flex gap-4 items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">2</span>
+</div>
+<div class="flex-grow">
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Technical Analysis Introduction (2-3 Weeks)</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Learn candlestick charts, trend lines, support/resistance, common indicators (MA, MACD, RSI, etc.).</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">Focus: Don't try to learn all indicators, master 2-3 key ones</p>
+</div>
+</div>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="flex gap-4 items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">3</span>
+</div>
+<div class="flex-grow">
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Demo Trading Practice (1-2 Months)</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Practice extensively in a demo account, test and refine your trading strategies.</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">Goal: Consecutive 1 month profitability, win rate >50%, reward-risk ratio >1:1.5</p>
+</div>
+</div>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="flex gap-4 items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">4</span>
+</div>
+<div class="flex-grow">
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Small Live Trading (3-6 Months)</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Start trading with small real capital to adapt to real trading psychological pressure.</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">Recommendation: Initial capital $100-500, focus is on accumulating experience rather than profit</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">Key Reminder</p>
+<p class="text-lg text-center text-white dark:text-black">Forex trading is not a shortcut to quick wealth, but a professional skill that requires long-term learning and practice. Stay patient, control risks, and continuously learn to survive and profit in this market.</p>
+</div>`,
  },
  category: 'forex',
  tags: ['beginner', 'forex', 'guide', 'education'],
@@ -2579,75 +2159,252 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">风险管理的终极目标</p>
 <p class="text-lg text-center text-white dark:text-black">不是避免亏损，而是确保你能在市场中长期生存，等待并抓住那些真正的大机会。记住：保护本金永远是第一位的。</p>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Forex Risk Management Strategies</h1>
+ en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Complete Guide to Forex Risk Management</h1>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Why is Risk Management So Important?</h2>
+<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">Risk management is the cornerstone of successful trading. Master these principles to survive and thrive in the forex market.</p>
 
-<strong class="font-bold text-black dark:text-white">Protecting capital is always the priority.</strong> In trading, you can lose a hundred times, but as long as you have capital, you have opportunities. Once you blow up, game over.
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Why Risk Management Matters</h2>
+
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">Capital Preservation First</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">In trading, you can lose a hundred times and still survive with capital. But blow your account once, and it's game over. Protecting capital is always the priority.</p>
+</div>
+</div>
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Core Risk Management Principles</h2>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">1. The 2% Rule</h3>
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Risk no more than 2% of account on single trade.</p>
-
-<strong class="font-bold text-black dark:text-white">Example</strong>:
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Account: $10,000</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Single trade risk: $200</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>If stop-loss is 50 pips, each pip is worth $4</span></li>
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">1. The 2% Rule</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Never risk more than 2% of your total account balance on a single trade. This is the golden rule of risk management.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Example:</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Account balance: $10,000</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Maximum risk per trade: $200 (2%)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>If stop-loss is 50 pips, position size = $4 per pip</span></li>
 </ul>
+</div>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">2. Always Set Stop-Loss</h3>
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Every trade must have a stop-loss, executed decisively.</p>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">2. Always Use Stop-Loss</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Every trade must have a predefined stop-loss. Set it when you enter, and execute it without hesitation when hit.</p>
+</div>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">3. Risk-Reward Ratio Minimum 1:2</h3>
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Expected profit should be at least double the potential loss.</p>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">4. Diversify</h3>
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Don't put all eggs in one basket.</p>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">5. Avoid Emotional Trading</h3>
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Don't rush to recover after losses, don't get overconfident after wins.</p>
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Specific Risk Management Techniques</h2>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Position Sizing</h3>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Single currency pair: Max 30% of capital</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Similar currency pairs: Max 50% of capital</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Correlated pairs: Avoid same-direction positions</span></li>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">3. Minimum 1:2 Risk-Reward Ratio</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Your potential profit should be at least twice your potential loss. Don't enter trades with poor risk-reward ratios.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Example:</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Entry: 1.1000</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Stop-loss: 1.0950 (50 pips risk)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Take-profit: 1.1100 (100 pips reward) = 1:2 ratio</span></li>
 </ul>
+</div>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Stop-Loss Methods</h3>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Technical stop: Key support/resistance</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Percentage stop: Fixed pips</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>ATR stop: Based on volatility</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Time stop: Fixed holding period</span></li>
-</ol>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Take-Profit Strategies</h3>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Fixed target: Target price</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trailing stop: Follow the trend</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Partial profits: Scale out</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Breakout profit: Trend following</span></li>
-</ol>
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Psychological Preparation for Risk Management</h2>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Accept that losses are part of trading. No trader has 100% win rate.</p>
-
-<strong class="font-bold text-black dark:text-white">Remember</strong>:
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Control what you can control (risk)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Accept what you cannot control (market)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Focus on process, not results</span></li>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">4. Diversify Your Risk</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Don't put all your eggs in one basket. Spread risk across different currency pairs and avoid overexposure.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Guidelines:</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Maximum 30% of capital in a single currency pair</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Maximum 50% in correlated pairs (EUR/USD and GBP/USD)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Avoid multiple positions in the same direction on correlated pairs</span></li>
 </ul>
+</div>
 
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">5. Control Your Emotions</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Never trade based on emotions. After a loss, don't rush to recover. After a win, don't get overconfident.</p>
+</div>
+</div>
 
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">*Good risk management wins half the battle.*</p>`
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Position Sizing Methods</h2>
+
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">Fixed Percentage Method</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Risk a fixed percentage (1-2%) of your account on each trade. Position size adjusts automatically as your account grows or shrinks.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Formula:</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">Position Size = (Account Balance × Risk %) ÷ (Stop Loss in pips × Pip Value)</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">Fixed Dollar Amount</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Risk the same dollar amount on every trade regardless of account size. Simple but doesn't account for account growth.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">Volatility-Based Sizing</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Adjust position size based on pair volatility using ATR (Average True Range). Higher volatility = smaller position size.</p>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Stop-Loss Strategies</h2>
+
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">Technical Stop-Loss</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Place stops below support (for longs) or above resistance (for shorts). Based on market structure, not arbitrary numbers.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">Percentage-Based Stop</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Fixed pip distance from entry (e.g., always 50 pips). Simple but doesn't consider market conditions.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">ATR-Based Stop</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Set stop-loss at a multiple of ATR (e.g., 2×ATR). Adapts to current market volatility automatically.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">Time-Based Stop</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Exit if the trade hasn't moved in your favor after a set time period. Prevents capital from being tied up.</p>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Understanding Risk-Reward Ratios</h2>
+
+<div class="overflow-x-auto mb-8">
+<table class="w-full border-2 border-black dark:border-white">
+<thead>
+<tr>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Risk:Reward</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Required Win Rate</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">100 Trades Result</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">1:1</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">50%</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Break even</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Poor</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">1:2</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">34%</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">+32R profit</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">✓ Good</strong></td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">1:3</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">25%</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">+50R profit</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">✓ Excellent</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">1:4</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">20%</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">+60R profit</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">✓ Outstanding</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">Key Insight</p>
+<p class="text-lg text-center text-white dark:text-black mb-4">With a 1:2 risk-reward ratio, you only need a 34% win rate to be profitable long-term!</p>
+<p class="text-center text-white dark:text-black">This is why professional traders focus on risk-reward ratios rather than win rates.</p>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Common Risk Management Mistakes</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ Mistake 1: Trading Without Stop-Loss</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Thinking "price will come back" turns small losses into account-destroying disasters.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Correct Approach:</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">Set stop-loss when opening every position. Never widen your stop-loss to increase losses.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ Mistake 2: Stop-Loss Too Tight</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Setting stops too close to reduce risk results in getting stopped out repeatedly by normal market noise.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Correct Approach:</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">Base stop-loss on technical analysis, giving price room to breathe. Control risk through position sizing, not tight stops.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ Mistake 3: Moving Stop-Loss to Avoid Loss</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">When price approaches your stop, you move it further away hoping for "one more chance".</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Correct Approach:</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">Once set, stops can only move in profit direction (trailing stop), never toward larger loss.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ Mistake 4: Oversized Positions</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Using excessive position sizes causes a single loss to wipe out 10% or more of your account.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Correct Approach:</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">Strictly follow the 2% rule. Never increase position size because you feel "extremely confident".</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ Mistake 5: Revenge Trading</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">After a loss, you increase position size and trade frantically to recover quickly, resulting in even bigger losses.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Correct Approach:</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">After a loss, stop trading. Analyze calmly. Wait for genuine high-quality opportunities.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ Mistake 6: Holding Correlated Positions</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Going long on both EUR/USD and GBP/USD thinking they're two separate trades, but your risk is actually doubled.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Correct Approach:</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">Pay attention to currency pair correlations. Avoid duplicate risk exposure.</p>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Advanced Risk Management Techniques</h2>
+
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">1. Trailing Stop</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Once your position is profitable, gradually move your stop-loss toward profit, locking in gains while giving price room to run.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Example:</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Buy EUR/USD at 1.1000, initial stop at 1.0950 (50 pips)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Price rises to 1.1050, move stop to 1.1000 (breakeven)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Price rises to 1.1100, move stop to 1.1050 (50 pips profit locked)</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">2. Scaling In</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Don't enter full position at once. Scale in 2-3 times to average better entry prices and improve win rate.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Strategy:</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>First entry: 50% position, testing the market</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Second entry: 30% position, confirming the trend</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Third entry: 20% position, trend fully established</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">3. Scaling Out</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">When targets are hit, don't exit entirely at once. Take partial profits to protect gains while keeping exposure to bigger moves.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Strategy:</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>At 1:1 risk-reward: close 50%, move stop to breakeven</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>At 1:2 risk-reward: close 30%, use trailing stop</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Remaining 20%: let profits run</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">4. Daily Loss Limit</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Set a maximum daily loss limit (e.g., 5% of account). Once hit, stop trading immediately for the day.</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">Example:</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">With a $10,000 account, stop trading when you've lost $500 for the day. Come back tomorrow. This prevents emotional meltdown and consecutive losses.</p>
+</div>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">The Ultimate Goal of Risk Management</p>
+<p class="text-lg text-center text-white dark:text-black">Not to avoid losses, but to ensure you survive in the market long enough to catch those truly massive opportunities. Remember: protecting capital is always priority number one.</p>
+</div>`
  },
  category: 'forex',
  tags: ['risk-management', 'forex', 'advanced'],
@@ -3207,121 +2964,174 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">持续获利的秘密</p>
 <p class="text-lg text-center text-white dark:text-black">不是找到完美的交易系统，而是长期坚持一个可行的系统。</p>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Consistent Profits in Gold Market</h1>
+ en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">How to Achieve Consistent Profits in Gold Market</h1>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Core of Consistent Profitability</h2>
+<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">Gold trading isn't about luck—it's about systematic strategy and disciplined execution.</p>
 
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Success in gold trading isn't about one-time windfall, but long-term stable profitability.</p>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Key Elements of Consistent Profitability</h2>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Technical Analysis Essentials</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">1</span></div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Systematic Strategy</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Complete trading system with clear entry and exit rules</p>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">2</span></div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Strict Execution</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Never change plans based on emotions—execute mechanically</p>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">3</span></div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Continuous Review</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Daily summary and constant strategy optimization</p>
+</div>
+</div>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">1. Multiple Timeframe Analysis</h3>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Daily: Identify major trend</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>4-hour: Find entry points</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>1-hour: Precise entry</span></li>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Gold Trading Strategy Comparison</h2>
+
+<div class="overflow-x-auto mb-8">
+<table class="w-full border-2 border-black dark:border-white">
+<thead>
+<tr>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Strategy</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Holding Time</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Profit Target</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Stop-Loss Range</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Best For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Intraday Scalping</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Minutes-Hours</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$5-10</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$3-5</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Full-time traders</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Swing Trading</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Days-Weeks</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">$20-50</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">$10-15</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Part-time/Full-time</strong></td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Trend Following</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Weeks-Months</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$50-100+</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$20-30</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Long-term investors</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">FX Killer Recommendation: Swing Trading Strategy</p>
+<p class="text-lg leading-relaxed text-center text-white dark:text-black">Controlled risk, flexible timing, clear profit targets—best suited for most traders.</p>
+</div>
+
+<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">Choose a strategy that suits you, then execute it consistently to achieve steady profits in the gold market.</p>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Key Elements for Long-Term Profitability</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">Moving from short-term gains to long-term stability requires building a complete trading framework. Here are the core elements of professional traders.</p>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">1</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Stable Trading System</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">A proven trading method including entry, stop-loss, and take-profit rules.</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Clear entry signals</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strict stop-loss rules</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Rational take-profit strategy</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Repeatable execution</span></li>
 </ul>
+</div>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">2. Key Support/Resistance</h3>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Historical highs/lows</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Round numbers (1800, 1900)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Fibonacci retracement levels</span></li>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">2</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Strict Discipline</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Execute 100% according to the trading plan without emotional interference.</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Follow trading rules</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Control trading frequency</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Maintain risk management</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Record every trade</span></li>
 </ul>
+</div>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">3. Technical Indicator Combination</h3>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>MA: Trend identification</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>MACD: Momentum confirmation</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>RSI: Overbought/oversold</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Bollinger Bands: Volatility range</span></li>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">3</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Continuous Learning</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Markets change, and traders must continuously improve.</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Review and summarize</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Learn new strategies</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Adapt to market changes</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Optimize trading system</span></li>
 </ul>
+</div>
+</div>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Practical Trading Strategies</h2>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Success Case Study</h2>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Trend Trading</h3>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Confirm trend direction</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Wait for pullback</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Enter at key support/resistance</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Hold with trend</span></li>
-</ol>
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">Case Study: From $5,000 to $50,000 in 12 Months</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">Real trading record from an FX Killer student (anonymized)</p>
+<div class="overflow-x-auto">
+<table class="w-full border-2 border-gray-300 dark:border-gray-700">
+<thead>
+<tr class="bg-gray-200 dark:bg-gray-800">
+<th class="px-4 py-2 text-left text-black dark:text-white">Phase</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">Period</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">Account Balance</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">Monthly Return</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">Key Strategy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-gray-200 dark:border-gray-800">
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">Initial Phase</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">Months 1-3</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">$5,000 → $6,500</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">10%/month</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">Small positions, strict stops</td>
+</tr>
+<tr class="border-b border-gray-200 dark:border-gray-800">
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">Growth Phase</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">Months 4-8</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">$6,500 → $15,000</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">18%/month</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">Trend trading, scaling up</td>
+</tr>
+<tr class="border-b border-gray-200 dark:border-gray-800">
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">Stability Phase</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">Months 9-12</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">$15,000 → $50,000</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">35%/month</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">Major trend capture, compound growth</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-500 mt-4">Key success factors: Always maintained 2% risk principle, never overleveraged, daily review and summary</p>
+</div>
+</div>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Range Trading</h3>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Identify consolidation range</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Buy low, sell high</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strict stop-loss</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Accumulate small profits</span></li>
-</ol>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Breakout Trading</h3>
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Identify key levels</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Wait for breakout confirmation</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Quick follow-through</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trailing stop-loss</span></li>
-</ol>
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Money Management</h2>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Position Sizing</h3>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Initial position: 10-20%</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Adding: 5-10% each time</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Maximum position: No more than 50%</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Stop-Loss Setting</h3>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Technical stop: Outside key levels</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Capital stop: 2-3% of account</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Time stop: Exit if no progress</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Take-Profit Strategy</h3>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Target profit: 1:2 risk-reward</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trailing profit: Protect gains</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Partial profits: Lock in returns</span></li>
-</ul>
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Mental Management</h2>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Accept Losses</h3>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Losses are trading costs</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Key is controlling loss size</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>No emotional revenge trading</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Avoid Greed</h3>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Set reasonable targets</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Don't chase overnight wealth</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Stable compound growth matters</span></li>
-</ul>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Stay Calm</h3>
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Don't let single trades affect judgment</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Focus on long-term performance</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trust your system</span></li>
-</ul>
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Success Factors</h2>
-
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Systematic</strong> - Complete trading system</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Disciplined</strong> - Strictly execute plan</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Patient</strong> - Wait for best opportunities</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Learning</strong> - Continuous strategy improvement</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Review</strong> - Summarize every trade</span></li>
-</ol>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">*In gold trading, stability trumps windfall profits.*</p>`
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">The Secret to Consistent Profits</p>
+<p class="text-lg text-center text-white dark:text-black">It's not about finding the perfect trading system—it's about consistently sticking to a workable system long-term.</p>
+</div>`
  },
  category: 'gold',
  tags: ['gold', 'profit', 'strategy', 'advanced'],
