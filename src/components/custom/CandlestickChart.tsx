@@ -452,7 +452,26 @@ export default function CandlestickChart() {
       ctx.stroke();
       ctx.setLineDash([]);
 
-      // EMA20 line removed per user request
+      // Draw EMA20 line (light gray 4px)
+      if (candles.length >= 20) {
+        const closes = candles.map(c => c.close);
+        const ema20 = calculateEMA(closes, 20);
+
+        ctx.strokeStyle = 'rgba(180, 180, 180, 1)'; // Light gray
+        ctx.lineWidth = 4;
+        ctx.beginPath();
+        ema20.forEach((value, index) => {
+          const x = index * candleSpacing + candleWidth / 2;
+          const y = padding.top + ((maxPrice - value) / priceRange) * mainChartHeight;
+          if (index === 0) {
+            ctx.moveTo(x, y);
+          } else {
+            ctx.lineTo(x, y);
+          }
+        });
+        ctx.stroke();
+      }
+
       // Keltner Channel removed per user request
 
       // ===== SUB CHART (1/3 bottom) - Golden/Death Cross =====
