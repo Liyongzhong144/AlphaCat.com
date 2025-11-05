@@ -385,74 +385,6 @@ export default function CandlestickChart() {
         ctx.stroke();
       }
 
-      // Draw data panel in top-right corner
-      if (candles.length > 0) {
-        const latestCandle = candles[candles.length - 1];
-        const panelX = rect.width - 200;
-        const panelY = 30;
-        const lineHeight = 14;
-
-        // Semi-transparent background (no border)
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.85)';
-        ctx.fillRect(panelX - 5, panelY - 5, 155, 95);
-
-        // Text styling
-        ctx.font = '10px monospace';
-        ctx.textAlign = 'left';
-
-        // Open
-        ctx.fillStyle = 'rgba(100, 100, 100, 1)';
-        ctx.fillText('开:', panelX, panelY);
-        ctx.fillStyle = 'rgba(0, 0, 0, 1)';
-        ctx.fillText(latestCandle.open.toFixed(2), panelX + 35, panelY);
-
-        // High
-        ctx.fillStyle = 'rgba(100, 100, 100, 1)';
-        ctx.fillText('高:', panelX, panelY + lineHeight);
-        ctx.fillStyle = 'rgba(0, 0, 0, 1)';
-        ctx.fillText(latestCandle.high.toFixed(2), panelX + 35, panelY + lineHeight);
-
-        // Low
-        ctx.fillStyle = 'rgba(100, 100, 100, 1)';
-        ctx.fillText('低:', panelX, panelY + lineHeight * 2);
-        ctx.fillStyle = 'rgba(0, 0, 0, 1)';
-        ctx.fillText(latestCandle.low.toFixed(2), panelX + 35, panelY + lineHeight * 2);
-
-        // Close
-        ctx.fillStyle = 'rgba(100, 100, 100, 1)';
-        ctx.fillText('收:', panelX, panelY + lineHeight * 3);
-        const closeColor = latestCandle.close >= latestCandle.open ? 'rgba(34, 197, 94, 1)' : 'rgba(239, 68, 68, 1)';
-        ctx.fillStyle = closeColor;
-        ctx.fillText(latestCandle.close.toFixed(2), panelX + 35, panelY + lineHeight * 3);
-
-        // Volume
-        ctx.fillStyle = 'rgba(100, 100, 100, 1)';
-        ctx.fillText('量:', panelX, panelY + lineHeight * 4);
-        ctx.fillStyle = 'rgba(0, 0, 0, 1)';
-        ctx.fillText((latestCandle.volume / 1000).toFixed(1) + 'K', panelX + 35, panelY + lineHeight * 4);
-
-        // Separator line
-        ctx.strokeStyle = 'rgba(200, 200, 200, 0.5)';
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        ctx.moveTo(panelX, panelY + lineHeight * 4.5);
-        ctx.lineTo(panelX + 145, panelY + lineHeight * 4.5);
-        ctx.stroke();
-
-        // Bid price (买价 - green, lower)
-        ctx.fillStyle = 'rgba(34, 197, 94, 1)';
-        ctx.fillText('买价:', panelX, panelY + lineHeight * 5.5);
-        ctx.fillText(currentBidPrice.toFixed(2), panelX + 50, panelY + lineHeight * 5.5);
-
-        // Ask price (卖价 - red, higher)
-        ctx.fillStyle = 'rgba(239, 68, 68, 1)';
-        ctx.fillText('卖价:', panelX, panelY + lineHeight * 6.5);
-        ctx.fillText(currentAskPrice.toFixed(2), panelX + 50, panelY + lineHeight * 6.5);
-
-        // Reset text align
-        ctx.textAlign = 'start';
-      }
-
       // Draw candles with NS indicator colors
       candles.forEach((candle, index) => {
         const x = index * candleSpacing + candleWidth / 2;
@@ -521,56 +453,7 @@ export default function CandlestickChart() {
       ctx.setLineDash([]);
 
       // EMA20 line removed per user request
-
-      // Draw Keltner Channel (MA20, ATR multiplier 0.5, purple 1px)
-      if (candles.length >= 20) {
-        const keltner = calculateKeltnerChannel(candles, 20, 0.5);
-
-        // Draw upper band
-        ctx.strokeStyle = 'rgba(147, 51, 234, 0.8)'; // Purple
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        keltner.upper.forEach((value, index) => {
-          const x = index * candleSpacing + candleWidth / 2;
-          const y = padding.top + ((maxPrice - value) / priceRange) * mainChartHeight;
-          if (index === 0) {
-            ctx.moveTo(x, y);
-          } else {
-            ctx.lineTo(x, y);
-          }
-        });
-        ctx.stroke();
-
-        // Draw middle line (MA20)
-        ctx.strokeStyle = 'rgba(147, 51, 234, 0.8)'; // Purple
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        keltner.middle.forEach((value, index) => {
-          const x = index * candleSpacing + candleWidth / 2;
-          const y = padding.top + ((maxPrice - value) / priceRange) * mainChartHeight;
-          if (index === 0) {
-            ctx.moveTo(x, y);
-          } else {
-            ctx.lineTo(x, y);
-          }
-        });
-        ctx.stroke();
-
-        // Draw lower band
-        ctx.strokeStyle = 'rgba(147, 51, 234, 0.8)'; // Purple
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        keltner.lower.forEach((value, index) => {
-          const x = index * candleSpacing + candleWidth / 2;
-          const y = padding.top + ((maxPrice - value) / priceRange) * mainChartHeight;
-          if (index === 0) {
-            ctx.moveTo(x, y);
-          } else {
-            ctx.lineTo(x, y);
-          }
-        });
-        ctx.stroke();
-      }
+      // Keltner Channel removed per user request
 
       // ===== SUB CHART (1/3 bottom) - Golden/Death Cross =====
 
