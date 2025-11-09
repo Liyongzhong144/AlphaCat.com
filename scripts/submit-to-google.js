@@ -14,14 +14,14 @@ function getServiceAccountKey() {
       // 尝试解析 JSON
       const key = JSON.parse(keyString);
 
-      // 处理 private_key 中的 \n 转义字符
-      if (key.private_key && typeof key.private_key === 'string') {
-        key.private_key = key.private_key.replace(/\\n/g, '\n');
-      }
-
       console.log('✅ 从环境变量加载密钥成功');
+      console.log(`   Type: ${key.type}`);
+      console.log(`   Project ID: ${key.project_id}`);
       console.log(`   Client Email: ${key.client_email}`);
-      console.log(`   Private Key: ${key.private_key ? '已设置' : '未设置'}`);
+      console.log(`   Private Key ID: ${key.private_key_id}`);
+      console.log(`   Private Key 长度: ${key.private_key ? key.private_key.length : 0}`);
+      console.log(`   Private Key 开头: ${key.private_key ? key.private_key.substring(0, 50) : 'null'}`);
+
       return key;
     } catch (error) {
       console.error('❌ 解析环境变量失败:', error.message);
@@ -113,6 +113,8 @@ async function main() {
     // 获取服务账号密钥
     const key = getServiceAccountKey();
 
+    console.log('\n🔐 开始创建 JWT 客户端...');
+
     // 创建 JWT 客户端 - 使用完整的 credentials 对象
     const jwtClient = new google.auth.JWT({
       email: key.client_email,
@@ -120,7 +122,10 @@ async function main() {
       scopes: ['https://www.googleapis.com/auth/indexing'],
     });
 
+    console.log('✅ JWT 客户端创建成功');
+
     // 授权
+    console.log('🔑 开始授权...');
     await jwtClient.authorize();
     console.log('✅ Google API 授权成功\n');
 
@@ -189,6 +194,7 @@ async function main() {
 
   } catch (error) {
     console.error('❌ 执行失败:', error.message);
+    console.error('   完整错误:', error.stack || error);
     if (error.message.includes('未找到')) {
       console.log('\n💡 提示:');
       console.log('  - 本地开发: 将密钥文件放在 public/cryptocashcontrol-a101c084ca74.json');
